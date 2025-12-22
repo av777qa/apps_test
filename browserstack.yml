@@ -4,6 +4,7 @@ framework: python
 app: bs://a11609dd897f6ef85f68d4e72087b16592efe670
 
 platforms:
+  # Samsung (20)
   - platformName: Android
     deviceName: Samsung Galaxy S24
     platformVersion: '16.0'
@@ -15,9 +16,6 @@ platforms:
     platformVersion: '15.0'
   - platformName: Android
     deviceName: Samsung Galaxy S24 Ultra
-    platformVersion: '14.0'
-  - platformName: Android
-    deviceName: Samsung Galaxy S24
     platformVersion: '14.0'
   - platformName: Android
     deviceName: Samsung Galaxy S23 Ultra
@@ -59,9 +57,6 @@ platforms:
     deviceName: Samsung Galaxy A51
     platformVersion: '10.0'
   - platformName: Android
-    deviceName: Samsung Galaxy A11
-    platformVersion: '10.0'
-  - platformName: Android
     deviceName: Samsung Galaxy M52
     platformVersion: '11.0'
   - platformName: Android
@@ -70,24 +65,8 @@ platforms:
   - platformName: Android
     deviceName: Samsung Galaxy Tab S11
     platformVersion: '16.0'
-  - platformName: Android
-    deviceName: Samsung Galaxy Tab S10 Plus
-    platformVersion: '15.0'
-  - platformName: Android
-    deviceName: Samsung Galaxy Tab A9 Plus
-    platformVersion: '14.0'
-  - platformName: Android
-    deviceName: Samsung Galaxy Tab S9
-    platformVersion: '13.0'
-  - platformName: Android
-    deviceName: Samsung Galaxy Tab S8
-    platformVersion: '12.0'
-  - platformName: Android
-    deviceName: Samsung Galaxy Tab S7
-    platformVersion: '11.0'
-  - platformName: Android
-    deviceName: Samsung Galaxy Tab S7
-    platformVersion: '10.0'
+
+  # Google Pixel (10)
   - platformName: Android
     deviceName: Google Pixel 10 Pro XL
     platformVersion: '16.0'
@@ -118,18 +97,8 @@ platforms:
   - platformName: Android
     deviceName: Google Pixel 7
     platformVersion: '13.0'
-  - platformName: Android
-    deviceName: Google Pixel 6 Pro
-    platformVersion: '15.0'
-  - platformName: Android
-    deviceName: Google Pixel 6 Pro
-    platformVersion: '12.0'
-  - platformName: Android
-    deviceName: Google Pixel 6
-    platformVersion: '12.0'
-  - platformName: Android
-    deviceName: Google Pixel 5
-    platformVersion: '11.0'
+
+  # OnePlus (5)
   - platformName: Android
     deviceName: OnePlus 13R
     platformVersion: '15.0'
@@ -145,6 +114,8 @@ platforms:
   - platformName: Android
     deviceName: OnePlus 8
     platformVersion: '10.0'
+
+  # Vivo / Oppo / Xiaomi / Motorola (15)
   - platformName: Android
     deviceName: Vivo Y21
     platformVersion: '11.0'
@@ -169,9 +140,30 @@ platforms:
   - platformName: Android
     deviceName: Motorola Moto G71 5G
     platformVersion: '11.0'
+  - platformName: Android
+    deviceName: Motorola Moto G51
+    platformVersion: '10.0'
+  - platformName: Android
+    deviceName: Motorola Edge 40
+    platformVersion: '13.0'
+  - platformName: Android
+    deviceName: Realme GT Neo 5
+    platformVersion: '13.0'
+  - platformName: Android
+    deviceName: Realme 11 Pro
+    platformVersion: '12.0'
+  - platformName: Android
+    deviceName: Xiaomi 13 Pro
+    platformVersion: '14.0'
+  - platformName: Android
+    deviceName: Xiaomi 12T Pro
+    platformVersion: '13.0'
+  - platformName: Android
+    deviceName: Poco F5
+    platformVersion: '13.0'
 
 buildName: Devices run
-projectName: Devices_100
+projectName: Devices_50
 browserstackLocal: false
 debug: true
 networkLogs: true
