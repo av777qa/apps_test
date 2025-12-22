@@ -62,9 +62,7 @@ platforms:
   - platformName: Android
     deviceName: Samsung Galaxy Tab S11
     platformVersion: '16.0'
-  - platformName: Android
-    deviceName: Samsung Galaxy A16 5G
-    platformVersion: '15.0'
+
 
   # Google Pixel (10)
   - platformName: Android
