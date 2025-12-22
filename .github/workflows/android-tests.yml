@@ -1,4 +1,4 @@
-name: Android Tests
+name: Android/iOS Tests apps
 
 on:
   workflow_dispatch:
@@ -28,6 +28,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Android tests
+      - name: Run Android/iOS tests
         run: |
           python apps_webview_test.py "${{ github.event.inputs.app_url }}"
