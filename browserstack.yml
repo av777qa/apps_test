@@ -141,9 +141,6 @@ platforms:
     deviceName: Motorola Moto G71 5G
     platformVersion: '11.0'
   - platformName: Android
-    deviceName: Motorola Moto G51
-    platformVersion: '10.0'
-  - platformName: Android
     deviceName: Motorola Edge 40
     platformVersion: '13.0'
   - platformName: Android
