@@ -4,23 +4,21 @@ framework: python
 app: bs://a11609dd897f6ef85f68d4e72087b16592efe670
 
 platforms:
+
+  - platformName: Android
+    deviceName: Xiaomi Redmi Note 11
+    platformVersion: '11.0'
+  - platformName: Android
+    deviceName: Xiaomi Redmi Note 9
+    platformVersion: '10.0'
   - platformName: Android
     deviceName: Motorola Moto G71 5G
     platformVersion: '11.0'
   - platformName: Android
-    deviceName: Realme GT Neo 5
-    platformVersion: '13.0'
+    deviceName: Realme P3
+    platformVersion: '15.0'
   - platformName: Android
-    deviceName: Realme 11 Pro
-    platformVersion: '12.0'
-  - platformName: Android
-    deviceName: Xiaomi 13 Pro
-    platformVersion: '14.0'
-  - platformName: Android
-    deviceName: Xiaomi 12T Pro
-    platformVersion: '13.0'
-  - platformName: Android
-    deviceName: Poco F5
+    deviceName: Realme 11X 5G
     platformVersion: '13.0'
 
 buildName: Devices run
