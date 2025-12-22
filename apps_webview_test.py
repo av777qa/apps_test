@@ -57,7 +57,7 @@ def generate_html_report(results, file_name="report.html"):
     html = f"""
     <html>
     <head>
-        <title>Android Test Report</title>
+        <title>Android/iOS Test Report</title>
         <style>
             body {{ font-family: Arial; }}
             table {{ border-collapse: collapse; width: 100%; }}
